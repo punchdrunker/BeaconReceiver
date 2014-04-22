@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface PDViewController : UIViewController
+@interface PDViewController : UIViewController <CLLocationManagerDelegate>
 
 @end

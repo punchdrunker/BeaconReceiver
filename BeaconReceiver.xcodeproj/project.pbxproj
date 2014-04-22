@@ -21,6 +21,7 @@
 		D9DFF42F1906A58C00E0C2F3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DFF4111906A58C00E0C2F3 /* UIKit.framework */; };
 		D9DFF4371906A58C00E0C2F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9DFF4351906A58C00E0C2F3 /* InfoPlist.strings */; };
 		D9DFF4391906A58C00E0C2F3 /* BeaconReceiverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DFF4381906A58C00E0C2F3 /* BeaconReceiverTests.m */; };
+		D9DFF4431906A5BC00E0C2F3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DFF4421906A5BC00E0C2F3 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D9DFF4341906A58C00E0C2F3 /* BeaconReceiverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconReceiverTests-Info.plist"; sourceTree = "<group>"; };
 		D9DFF4361906A58C00E0C2F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9DFF4381906A58C00E0C2F3 /* BeaconReceiverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconReceiverTests.m; sourceTree = "<group>"; };
+		D9DFF4421906A5BC00E0C2F3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DFF4431906A5BC00E0C2F3 /* CoreLocation.framework in Frameworks */,
 				D9DFF4101906A58C00E0C2F3 /* CoreGraphics.framework in Frameworks */,
 				D9DFF4121906A58C00E0C2F3 /* UIKit.framework in Frameworks */,
 				D9DFF40E1906A58C00E0C2F3 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		D9DFF40C1906A58C00E0C2F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D9DFF4421906A5BC00E0C2F3 /* CoreLocation.framework */,
 				D9DFF40D1906A58C00E0C2F3 /* Foundation.framework */,
 				D9DFF40F1906A58C00E0C2F3 /* CoreGraphics.framework */,
 				D9DFF4111906A58C00E0C2F3 /* UIKit.framework */,
